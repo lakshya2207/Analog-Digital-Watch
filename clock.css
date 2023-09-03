@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #05161a;
+    justify-items: center;
+}
+.clock{
+    position: relative;
+    margin: auto;
+    margin-top: 5vh;
+    height: 38vw;
+    width: 38vw;
+    background-image: url(./pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0px -10px 15px rgba(0, 255, 221, 0.05),
+    inset 0px -10px 15px rgba(0, 255, 251, 0.05),
+    0px 10px 15px rgba(0,0,0, 0.5),
+    inset 0px 10px 15px rgba(0,0,0,0.3);
+    border-radius: 50%;    
+}
+ 
+#hr,#mn,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hr{
+    width: 2%;
+    height: 26%;
+    top: 24%;
+    left: 49%;
+    /* opacity: 0.8; */
+    background-color: black;
+}
+#mn{
+    width: 1.5%;
+    height: 31%;
+    top: 19.5%;
+    left: 49.5%;
+    /* opacity: 0.5; */
+    background-color: rgb(60,60,60);
+}
+#sec{
+    width: 1%;
+    height: 35%;
+    top: 15%;
+    left: 49.5%;
+    /* opacity: 0.5; */
+    background-color: white;
+}
+
+.time{
+    /* display: flex; */
+    margin: 2vw;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.digtime{
+    display: inline-flex;
+}
+.htime{
+    color: crimson;
+}
+.mtime{
+    color: yellow;
+}
+.stime{
+    color: cyan;
+}
